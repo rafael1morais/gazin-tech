@@ -40,7 +40,7 @@ _Siga as instruções para usufluir do projeto._
 
 1. Clone repo
    ```sh
-   git clone https://gitlab.com/rafael.morais.souza/gazin-tech.git
+   git clone https://github.com/rafael1morais/gazin-tech.git
    ```
 2. Instale as dependencias
    ```sh
