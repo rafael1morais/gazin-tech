@@ -47,7 +47,7 @@ _Siga as instruções para usufluir do projeto._
    composer install
    ```
 3. .ENV <br>
-    Para que o projeto funcione corretamente, é necessário realizar a configuração da conexão com o banco de dados MySQL, informando a DATABASE, USERNAME e PASSWORD
+    Para que o projeto funcione corretamente, é necessário realizar a configuração da conexão com o banco de dados MySQL, informando a DATABASE, USERNAME e PASSWORD.
    ```sh
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -60,7 +60,13 @@ _Siga as instruções para usufluir do projeto._
    ```sh
    php artisan key:generate
    ```  
-5. Iniciar projeto
+   
+5. Gerar Migrate
+   ```sh
+   php artisan migrate
+   ``` 
+   
+6. Iniciar projeto
    ```sh
    php artisan serve
    ```  
