@@ -66,7 +66,7 @@ class ApiLevelController extends Controller
     
             return response()->json([
                 "success" => "Nível excluído com sucesso!"
-            ], 200);
+            ], 204);
         } else {
             return response()->json([
                 "errors" => "Não foi possível excluir o nível!"
