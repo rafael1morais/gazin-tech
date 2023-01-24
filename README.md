@@ -33,6 +33,9 @@ Para visualizar as rotas presentes no `gazin-tech` digite o comando `php artisan
 
 Utilizando neste projeto Laravel 9 + Bootstrap + Ajax
 
+### PHP
+
+Para funcionamento correto do PHP, é necessário habilitar a extensão "pdo_mysql" e "mysqli" no arquivo php.ini
 
 ### Instalação
 
