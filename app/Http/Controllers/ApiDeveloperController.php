@@ -81,7 +81,7 @@ class ApiDeveloperController extends Controller
     
             return response()->json([
                 "success" => "Desenvolvedor excluído com sucesso!"
-            ], 200);
+            ], 204);
         } else {
             return response()->json([
                 "errors" => "Não foi possível excluir o desenvolvedor!"
